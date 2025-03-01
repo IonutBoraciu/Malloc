@@ -1,1 +1,15 @@
-Created a wrapper for malloc and calloc in C. ( Using linked lists to store the data, and mmap and sbrk as syscalls )
+# Malloc implementation
+  
+  * Implemented custom malloc
+and calloc using sbrk and nmap
+for dynamic memory allocation.
+
+  * Features: Managed memory
+with linked lists, reducing
+fragmentation via
+splitting/merging.
+
+  * Achived: simulating a memory
+allocator and improved low-
+level memory management
+understanding.
